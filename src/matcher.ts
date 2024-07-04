@@ -71,5 +71,8 @@ function check (given: any, expected: Matcher[] | any) : boolean {
     return regex.test(given)
   }
 
+  // More checks
+
   return deepEqual(given, expected)
 }
+
